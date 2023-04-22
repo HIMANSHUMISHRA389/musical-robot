@@ -1,0 +1,68 @@
+footer {
+  margin-top: 10vmax;
+  padding: 2vmax;
+  background-color: rgb(34, 33, 44);
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.leftfooter {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.leftfooter > h4 {
+    font-size: 1vmax;
+  font-family: "Franklin Gothic Medium", "Arrival Narrow", "Arial", "sans-serif";
+}
+.leftfooter > p {
+    font-size: 1.2vmax;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arrival Narrow", "Arial", "sans-serif";
+}
+
+.leftfooter > img {
+  width: 10vmax;
+  margin: 1vmax;
+  cursor: pointer;
+}
+.midfooter{
+    width: 60%;
+    text-align: center;
+}
+.midfooter>h1{
+    font-size: 4vmax;
+    font-family:  "Gill Sans","Gill Sans MT","Calibri","Trebuchet MS", "sans-serif";
+    color: #eb4034;
+}
+.midfooter>p{
+    max-width: 60%;
+    margin: 1vmax auto;
+}
+.rightfooter{
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rightfooter>h4{
+    font-family: "Roboto";
+    font-size: 1.4vmax;
+    text-decoration: underline;
+}
+.rightfooter>a{
+    text-decoration: none;
+    font-size: 1.3vmax;
+    font-family: "Gill Sans","Gill Sans MT","Calibri","Trebuchet MS", "sans-serif";
+    transition: all 0.5;
+    color: white;
+
+}
+.rightfooter>a:hover{
+    color: #eb4034;
+
+}
