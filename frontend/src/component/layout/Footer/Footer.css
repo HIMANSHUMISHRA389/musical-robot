@@ -7,7 +7,7 @@ footer {
   align-items: center;
 }
 
-.leftfooter {
+.leftFooter {
   width: 20%;
   display: flex;
   flex-direction: column;
@@ -15,46 +15,46 @@ footer {
   align-items: center;
 }
 
-.leftfooter > h4 {
+.leftFooter > h4 {
     font-size: 1vmax;
   font-family: "Franklin Gothic Medium", "Arrival Narrow", "Arial", "sans-serif";
 }
-.leftfooter > p {
+.leftFooter > p {
     font-size: 1.2vmax;
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arrival Narrow", "Arial", "sans-serif";
 }
 
-.leftfooter > img {
+.leftFooter > img {
   width: 10vmax;
   margin: 1vmax;
   cursor: pointer;
 }
-.midfooter{
+.midFooter{
     width: 60%;
     text-align: center;
 }
-.midfooter>h1{
+.midFooter>h1{
     font-size: 4vmax;
     font-family:  "Gill Sans","Gill Sans MT","Calibri","Trebuchet MS", "sans-serif";
     color: #eb4034;
 }
-.midfooter>p{
+.midFooter>p{
     max-width: 60%;
     margin: 1vmax auto;
 }
-.rightfooter{
+.rightFooter{
     width:20%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.rightfooter>h4{
+.rightFooter>h4{
     font-family: "Roboto";
     font-size: 1.4vmax;
     text-decoration: underline;
 }
-.rightfooter>a{
+.rightFooter>a{
     text-decoration: none;
     font-size: 1.3vmax;
     font-family: "Gill Sans","Gill Sans MT","Calibri","Trebuchet MS", "sans-serif";
@@ -62,7 +62,7 @@ footer {
     color: white;
 
 }
-.rightfooter>a:hover{
+.rightFooter>a:hover{
     color: #eb4034;
 
 }

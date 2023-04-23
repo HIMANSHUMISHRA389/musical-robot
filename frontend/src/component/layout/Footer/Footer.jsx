@@ -9,18 +9,18 @@ import "./Footer.css"
 const Footer = () => {
   return (
     <footer id="footer">
-      <div class="leftfooter">
+      <div className="leftFooter">
         <h4>DOWNLOAD OUR APP</h4>
         <p>Download App for Android and IOS mobile phone</p>
         <img src={playStore} alt="playstore" />
         <img src={appStore} alt="Appstore" />
       </div>
-      <div class="midfooter">
+      <div className="midFooter">
         <h1>ECOMMERCE</h1>
         <p>High Quality is our first priority</p>
         <p>copyrights 2023 &copy;HimanshuMishra</p>
       </div>
-      <div class="rightfooter">
+      <div className="rightFooter">
         <h4>Follow Us</h4>
         <a href="https://instagram.com/meabhisingh">Instagram</a>
         <a href="https://facebook.com/himanshumishra">Facebook</a>
